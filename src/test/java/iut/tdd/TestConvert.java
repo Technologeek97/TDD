@@ -170,4 +170,26 @@ public class TestConvert {
 		// Then
 		Assert.assertEquals(expected, actual);
 	}
+	@Test
+	public void test_num2text_quinze () {
+		// Given
+		String input = "15";
+		String expected = "quinze";
+		Convert myConvert = new Convert();
+		// When
+		String actual = myConvert.num2text(input);
+		// Then
+		Assert.assertEquals(expected, actual);
+	}
+	@Test
+	public void test_num2text_seize () {
+		// Given
+		String input = "16";
+		String expected = "seize";
+		Convert myConvert = new Convert();
+		// When
+		String actual = myConvert.num2text(input);
+		// Then
+		Assert.assertEquals(expected, actual);
+	}
 }
