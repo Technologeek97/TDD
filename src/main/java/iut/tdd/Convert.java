@@ -79,7 +79,7 @@ public class Convert {
 			rslt="soixante-dix";
 		break;
 		case("80"):
-			rslt="quatre-vingt";
+			rslt="quatre-vingts";
 		break;
 		case("90"):
 			rslt="quatre-vingt-dix";
