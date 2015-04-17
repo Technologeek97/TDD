@@ -60,6 +60,31 @@ public class Convert {
 		case("16"):
 			rslt="seize";
 		break;
+		case("20"):
+			rslt="vingt";
+		break;
+		case("30"):
+			rslt="trente";
+		break;
+		case("40"):
+			rslt="quarante";
+		break;
+		case("50"):
+			rslt="cinquante";
+		break;
+		case("60"):
+			rslt="soixante";
+		break;
+		case("70"):
+			rslt="soixante-dix";
+		break;
+		case("80"):
+			rslt="quatre-vingt";
+		break;
+		case("90"):
+			rslt="quatre-vingt-dix";
+		case("100"):
+			rslt="cent";
 
 	}
 	return rslt;

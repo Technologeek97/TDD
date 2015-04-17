@@ -191,5 +191,14 @@ public class TestConvert {
 		String actual = myConvert.num2text(input);
 		// Then
 		Assert.assertEquals(expected, actual);
-	}
-}
+	}@Test
+	public void test_num2text_vingt () {
+		// Given
+		String input = "20";
+		String expected = "vingt";
+		Convert myConvert = new Convert();
+		// When
+		String actual = myConvert.num2text(input);
+		// Then
+		Assert.assertEquals(expected, actual);
+	}}
